@@ -1,0 +1,6 @@
+#!/system/bin/sh
+# pertama masuk super user
+su
+sleep 2
+dd if=/dev/zero bs=512 count=1024
+echo "finish" #selesai
